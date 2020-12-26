@@ -26,8 +26,8 @@ route.put('/users', LoginRequired, UserController.update);
 route.delete('/users', LoginRequired, UserController.delete);
 
 // rotas de alunos
-route.get('/alunos', LoginRequired, AlunoController.index);
-route.get('/alunos/:id', LoginRequired, AlunoController.show);
+route.get('/alunos', AlunoController.index);
+route.get('/alunos/:id', AlunoController.show);
 route.post('/alunos', LoginRequired, AlunoController.store);
 route.put('/alunos/:id', LoginRequired, AlunoController.update);
 route.delete('/alunos/:id', LoginRequired, AlunoController.delete);
