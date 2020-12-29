@@ -21,7 +21,7 @@ route.get('/', homeController.index);
 // route.get('/users', UserController.index);
 // route.get('/users/', UserController.show);
 
-route.post('/users', LoginRequired, UserController.store);
+route.post('/users', UserController.store);
 route.put('/users', LoginRequired, UserController.update);
 route.delete('/users', LoginRequired, UserController.delete);
 
