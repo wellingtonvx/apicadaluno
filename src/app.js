@@ -10,7 +10,7 @@ import { resolve } from 'path';
 import express from 'express';
 import route from './routes';
 
-const whiteList = ['http://localhost:3000'];
+const whiteList = ['http://localhost:3000', 'http://35.232.53.93:80'];
 
 const corsOptions = {
   origin(origin, callback) {
