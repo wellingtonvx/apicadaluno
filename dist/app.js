@@ -10,7 +10,11 @@ var _path = require('path');
 var _express = require('express'); var _express2 = _interopRequireDefault(_express);
 var _routes = require('./routes'); var _routes2 = _interopRequireDefault(_routes);
 
-const whiteList = ['http://localhost:3000', 'http://35.232.53.93:80'];
+const whiteList = [
+  'http://localhost:3000',
+  'http://35.232.53.93:80',
+  'https://cadaluno.herokuapp.com:80',
+];
 
 const corsOptions = {
   origin(origin, callback) {
