@@ -12,8 +12,9 @@ var _routes = require('./routes'); var _routes2 = _interopRequireDefault(_routes
 
 const whiteList = [
   'http://localhost:3000',
-  'http://35.232.53.93:80',
-  'https://cadaluno.herokuapp.com:80',
+  'http://35.232.53.93',
+  'http://cadaluno.herokuapp.com',
+  'https://cadaluno.herokuapp.com',
 ];
 
 const corsOptions = {
