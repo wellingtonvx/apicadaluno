@@ -13,6 +13,7 @@ import route from './routes';
 const whiteList = [
   'http://localhost:3000',
   'http://35.232.53.93',
+  'http://cadaluno.herokuapp.com',
   'https://cadaluno.herokuapp.com',
 ];
 
